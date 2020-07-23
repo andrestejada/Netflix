@@ -9,9 +9,12 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
-
-
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+      integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <header>
@@ -28,12 +31,62 @@
 
     <main>
       <div class="pelicula-principal">
-          <div class="contenedor" >
-              <h3 class="titulo" > Aniversario</h3>
-              <p class="descripcion" >Cuenta la historia del quinto aniversario de carolina y andres que tuvieron muchas adversidades en el camino.</p>
-              <button role="button" class="boton" ><i class="fas fa-play"></i>Reproducir</button>
-              <button role="button" class="boton" ><i class="fas fa-info-circle"></i>Mas Informacion</button>
+        <div class="contenedor">
+          <h3 class="titulo">Aniversario</h3>
+          <p class="descripcion">
+            Cuenta la historia del quinto aniversario de carolina y andres que
+            tuvieron muchas adversidades en el camino.
+          </p>
+          <button role="button" class="boton">
+            <i class="fas fa-play"></i>Reproducir
+          </button>
+          <button role="button" class="boton">
+            <i class="fas fa-info-circle"></i>Mas Informacion
+          </button>
+        </div>
+      </div>
+      <!-- carusel de imagenes -->
+      <div class="peliculas-recomendadas contenedor">
+        <div class="conteneder-titulo-controles">
+          <h3>Peliculas Recomendadas</h3>
+          <div class="indicadores"></div>
+        </div>
+
+        <div class="contenedor-principal">
+
+        <button id="flecha-izquierda" class="flecha-izquierda">
+          <i class="fas fa-angle-left"></i>
+        </button>
+
+        <div class="contenedor-carousel">
+          <div class="carousel">
+            <div class="pelicula">
+              <a href="#"><img src="img/carousel1.jpg" alt="" /></a>
+            </div>
+            <div class="pelicula">
+              <a href="#"><img src="img/carousel2.jpg" alt="" /></a>
+            </div>
+            <div class="pelicula">
+              <a href="#"><img src="img/carousel3.jpg" alt="" /></a>
+            </div>
+            <div class="pelicula">
+              <a href="#"><img src="img/carousel4.jpg" alt="" /></a>
+            </div>
+            <div class="pelicula">
+              <a href="#"><img src="img/carousel5.jpg" alt="" /></a>
+            </div>
+            <div class="pelicula">
+              <a href="#"><img src="img/carousel1.jpg" alt="" /></a>
+            </div>
+            <div class="pelicula">
+              <a href="#"><img src="img/carousel2.jpg" alt="" /></a>
+            </div>
           </div>
+        </div>
+        <button id="flecha-derecha" class="flecha-derecha">
+          <i class="fas fa-angle-right"></i>
+        </button>
+      </div>
       </div>
     </main>
   </body>

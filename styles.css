@@ -106,6 +106,43 @@ header nav a:hover,header nav a.active{
     margin-right: 0.5em;
 }
 
+.peliculas-recomendadas{
+    margin-bottom: 4.3rem;
+}
+
+.peliculas-recomendadas .contenedor-principal{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+
+.flecha-izquierda,.flecha-derecha{
+position: absolute;
+font-size: 40px;
+border: none;
+background-color: rgba(0, 0, 0, 0.301);
+height: 50%;
+width: 50px;
+cursor: pointer;
+top: calc(50%-25%);
+color: white;
+z-index: 2;
+}
+
+.flecha-izquierda{
+    left: 0;
+}
+
+.flecha-derecha{
+    right: 0;
+}
+
+
+img{
+    width: 4em;
+    height: 4.5em;
+}
 
 /* mMedia query */
 
